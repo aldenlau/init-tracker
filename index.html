@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple initiative tracker for D&D 5E.">
+    <meta name="keywords" content="initiative tracker, d&d 5e, condition tracker">
+    <title>D&D Initiative Tracker</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+
+<header>
+    <h1>D&D 5e Initiative Tracker</h1>
+</header>
+
+<main>
+    <form id='addchar'>
+        <p>Name</p>
+        <input type='text' id = 'char-name'>
+        <p>HP</p>
+        <input type='text' id = 'char-hp'>
+        <p>Initiative</p>
+        <input type = 'text' id = 'char-init'>
+        <button type="button" id = 'add-char'>Add</button>
+    </form>
+
+    <hr>
+    <div class = 'container' id = 'char-list'>
+
+    </div>
+    <ol id = 'char-list'>
+    </ol>
+</main>
+
+<footer>
+    <p>Alden Lau</p>
+</footer>
+<script src="inittracker.js"></script>
+</body>
+</html>
