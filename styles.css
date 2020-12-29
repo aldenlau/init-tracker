@@ -27,7 +27,13 @@ footer {
     font-size:1em;
     padding: 5px;
 }
-.container {
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1000px 400px;
+}
+
+.char-container {
     display: grid;
     grid-template-columns: 180px;
 }
