@@ -15,19 +15,20 @@
 </header>
 
 <main>
-    <form id='addchar'>
-        <p>Name</p>
+    <form id='add-char'>
+        <p class = 'char-input'>Name</p>
         <input type='text' id = 'char-name'>
-        <p>HP</p>
+        <p class = 'char-input'>HP</p>
         <input type='text' id = 'char-hp'>
-        <p>Initiative</p>
+        <p class = 'char-input'>Initiative</p>
         <input type = 'text' id = 'char-init'>
-        <button type="button" id = 'add-char'>Add</button>
+        <button type="button" id = 'add-char-button'>Add</button>
     </form>
 
     <hr>
     <div class = 'main-container'>
         <div class = 'char-container' id = 'char-list'></div>
+        <div id = 'char-display'></div>
     </div>
 </main>
 

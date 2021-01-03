@@ -70,4 +70,4 @@ function checkIntKey(event){
 document.getElementById('char-hp').onkeydown = checkIntKey;
 document.getElementById('char-init').onkeydown = checkIntKey;
 document.getElementById('char-name').addEventListener('keydown', event => {if(event.key=='Enter')addChar();});
-document.getElementById('add-char').addEventListener('click', addChar);
+document.getElementById('add-char-button').addEventListener('click', addChar);
