@@ -8,7 +8,6 @@ class Character{
         this.hp = hp;
         this.init = init;
         this.charBox = this.makeCharBox();
-
     }
     makeCharBox(){
         let charBox = document.createElement('div');

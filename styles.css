@@ -51,7 +51,6 @@ hr {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: minmax(0, 1fr);
     min-height: 0;
-    overflow: auto;
 }
 
 .char-container {
@@ -66,5 +65,5 @@ hr {
 }
 
 #char-display{
-    
+    background-color: pink;
 }
